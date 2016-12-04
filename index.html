@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang"en">
   <head>
-    <meta charset="utf-8" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- My Own Stylesheet -->
-    <link type="text/css" rel="stylesheet" href="style/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Taryn &amp; Jorge</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
     <!-- Google Font Addition -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- jQuery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Bootstrap JS Library -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -19,7 +20,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MQ3V72R');</script>
     <!-- End Google Tag Manager -->
-    <title>Taryn &amp; Jorge</title>
+
   </head>
 
   <body>
@@ -28,109 +29,173 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">T</a>
+    <!-- FIXED NAVBAR -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">T</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Engagement</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photos<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Germany</a></li>
+                    <li><a href="#">California</a></li>
+                    <li><a href="#">Christmas</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Follow Us<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Hers</li>
+                    <li><a target="_blank" href="https://www.facebook.com/taryn.rusignuolo?fref=ts">Facebook</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/trusignuolo/">Instagram</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">His</li>
+                    <li><a target="_blank" href="#">Facebook</a></li>
+                    <li><a target="_blank" href="#">Instagram</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container">
+
+        <div>
+          <h1>Taryn &amp; Jorge</h1>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Engagement</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photos<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Germany</a></li>
-                <li><a href="#">California</a></li>
-                <li><a href="#">Christmas</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider">
 
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Follow Us<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Hers</li>
-                <li><a target="_blank" href="https://www.facebook.com/taryn.rusignuolo?fref=ts">Facebook</a></li>
-                <li><a target="_blank" href="https://www.instagram.com/trusignuolo/">Instagram</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">His</li>
-                <li><a target="_blank" href="#">Facebook</a></li>
-                <li><a target="_blank" href="#">Instagram</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Yin &amp; Yang</h2>
+            <p class="lead">Their first picture together happened after a New York Giants &amp; Jets pre-season game. Taryn is a New York Giants fan and Jorge is a New York Jets fan. A friendly rivalry but a great example of how they are eachother's Yin and Yang.</p>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_1441.jpg" alt="Our first picture together">
+          </div>
+        </div>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-  </ol>
+        <hr class="featurette-divider">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/carousel/bridge.jpg" alt="The Bay Bridge in San Francisco">
-    </div>
-    <div class="item">
-      <img src="img/carousel/IMG_0025.jpg" alt="On a plane on our way to Munich">
-    </div>
-    <div class="item">
-      <img src="img/carousel/IMG_0249.jpg" alt="Neuschwanstein Castle">
-    </div>
-    <div class="item">
-      <img src="img/carousel/IMG_0271.jpg" alt="A day at the beach at Asbury Park">
-    </div>
-    <div class="item">
-      <img src="img/carousel/IMG_0421.jpg" alt="Scuba Training at the Pool">
-    </div>
-    <div class="item">
-      <img src="img/carousel/IMG_0534.jpg" alt="The proposal at Lusk 25 in San Francisco">
-    </div>
-  </div>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Their first vacation together<br /> <span class="text-muted">Munich, Germany</span></h2>
+            <p class="lead">Explorers at heart. Jetsetting is a passion of theirs. They have already been coast to coast and have crossed an ocean together. Jorge looks forward to spending the rest of his life crossing streets, sidewalks and oceans with Taryn by his side.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_0025.jpg" alt="On our way to Munich">
+          </div>
+        </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+        <hr class="featurette-divider">
 
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <ul class="footer">
-      <a target="_blank" class="social-icon-link" href="https://www.facebook.com/taryn.rusignuolo?fref=ts"><img src="img/icons/facebook-black.svg" width="20"> </a>
-      <a target="_blank" class="social-icon-link" href="https://www.instagram.com/trusignuolo/"><img src="img/icons/instagram-black.svg" width="20"> </a>
-    </ul>
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Neuschwanstein Castle</h2>
+            <p class="lead">Jorge loves to tell Taryn how she is his queen. No trip together would be complete without a visit to a castle. They may never live in a castle together but Jorge will do all he can to make sure Taryn feels like a queen.</p>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_0249.jpg" alt="Neuschwanstein Castle">
+          </div>
+        </div>
 
-  </nav>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Toes in the sand <br /> <span class="text-muted">Always watch your step</span></h2>
+            <p class="lead">Warm or cold. They find peace at the beach. Taryn is fascianted by the ocean and it's mysteries. No matter the time of year, they somehow always end up on a beach together.Jorge just always has to make sure to watch his step. Those rocks can be slippery.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_0271.jpg" alt="A day at the beach at Asbury Park">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Adventerous</h2>
+            <p class="lead">They love seeking out new experiences and do not back down from a challenge. Scuba diving in a pool together to get ready to explore the world together at the drop of a hot.</p>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_0421.jpg" alt="Scuba Training at the Pool">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Coast to coast</h2>
+            <p class="lead">Taryn lives on the East Coast and Jorge lives on the West Coast but the distance cannot keep them apart. It only makes them stronger. Every mintue they spend together is special. Even if it is just them laying in bed watching a Shameless marathon.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/bridge.jpg" alt="The bay bridge">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Jorge knew after the first date that he would spend the rest of his life with Taryn. He knew he had met his better half. After everything they had been through in a short time he could no longer wait to ask Taryn to be his partner for life.</p>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="img/homepage/IMG_0534.jpg" alt="The proposal at Lusk 25 in San Francisco">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      <!-- Footer -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016</p>
+      </footer>
+
+    </div> <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Bootstrap JS Library -->
+    <script src="js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
   </body>
-
 </html>
